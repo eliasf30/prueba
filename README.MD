@@ -51,3 +51,83 @@ aqui podemos usar formato *italico*, pero tambien **bold** y ~~tachado~~
 [esto es un link en markdown](http://google.com)
 
 [esto es un link al index](index.html)
+
+# imagenes
+![logo github](https://cdn-icons-png.flaticon.com/512/25/25231.png)
+
+# code snippets
+
+codigo en JSON
+```JSON
+[
+  {
+    "title": "apples",
+    "count": [12000, 20000],
+    "description": {"text": "...", "sensitive": false}
+  },
+  {
+    "title": "oranges",
+    "count": [17500, null],
+    "description": {"text": "...", "sensitive": false}
+  }
+]
+```
+codigo en javascript
+```javascript
+JavaScript
+function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+  }
+
+  return (
+    <div>
+      <web-component>{block}</web-component>
+    </div>
+  )
+}
+
+export  $initHighlight;
+
+```
+
+# tablas
+
+| nombre | apellido | documento |
+| ------|------------| ----------|
+|maxi | burgos | 2343242343 | 
+| tomas | thompson | 232321321 |
+
+# citas
+esto es un texto referente a una cita que pondremos debajo 
+> esto es una cita.
+
+esto es otro texto que no se relaciona con la cita anterior
+> esto es otra cita
+
+# lineas divisoras
+esto es un texto que sera dividido por giones medios
+
+---
+esto es otro texto dividido por asteriscos.
+
+***
+
+esto es otro texto dividido por guiones bajos
+
+___
+
+# saltos de linea
+esto es nuestro primer parrafo.
+
+esto es nuestro segundo parrafo.
+
+esto es nuestro tercer parrafo.
